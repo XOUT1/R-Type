@@ -1,3 +1,4 @@
+
 class Player {
   constructor() {
     this.sprite = createSprite(100, height / 2, 40, 30);
@@ -23,8 +24,3 @@ class Player {
   }
 }
 
-let planeImage; // Declare at top (global scope in player.js or main.js)
-
-function preload() {
-  planeImage = loadImage('assets/plane.png'); // Load it in preload
-}
